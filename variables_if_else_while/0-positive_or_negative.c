@@ -2,7 +2,6 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *betty style doc for function main goes there
  *main- a function to check is number is positive, zero or negative *
  *return: Always 0 (success)
 */
