@@ -3,10 +3,10 @@
 #include <stdio.h>
 /**
  *main- a function to check is number is positive, zero or negative
- *return: Always 0 (success)
+ *return: 0 if success
 */
 int main(void)
-{	
+{
 	int n;
 
 	srand(time(0));
