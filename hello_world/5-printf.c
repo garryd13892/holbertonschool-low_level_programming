@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main:Printing output using printf
- * return:0 if sucess
+ * main-Printing using printf
+ *
+ * return:0 if successful
 */
 int main(void)
 {
