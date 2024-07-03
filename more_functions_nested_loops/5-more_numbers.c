@@ -2,22 +2,17 @@
 
 void more_numbers(void)
 {
-	int counter;
-	int row = 0;
-
-	while (row < 10)
+	char c;
+	int i;
+	for  (i=0;i<10;i++)
 	{
-		counter = 0;
-		while (counter <= 14)
+		for (c=0;c<=14;c++)
 		{
-			if (counter > 9)
-			{
-				_putchar(ZERO + counter / 10);
-			}
-			_putchar(ZERO + counter % 10);
-			counter++;
+		if(c/10>0)
+			_putchar((c/10)+'0');
+		_putchar((c%10)+'0');
 		}
 	_putchar('\n');
-	row++;
 	}
+	
 }
