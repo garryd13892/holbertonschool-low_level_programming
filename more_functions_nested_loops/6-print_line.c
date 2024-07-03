@@ -7,7 +7,7 @@ void print_line(int n)
 	if(n<=0)
 		_putchar('\n');
 	else
-		while(c<=n)
+		while(c<n)
 		{
 			_putchar('_');
 			c++;
