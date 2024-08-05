@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 
 /**
  * *string_toupper - check the code
