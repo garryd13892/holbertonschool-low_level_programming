@@ -1,24 +1,25 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * print_rev - check the code
- * @s: pointer to the string to reverse
+ * reverse_array - check the code
+ * @a: pointer to array's first elem
+ * @n: num of elements in array
  *
- * Return: reverses the string passed in.
+ * Return: no output.
  */
-void print_rev(char *s)
+void reverse_array(int *a, int n)
 {
 	int count = 0;
+	int temp;
+	int max = n - 1;
 
-	while (s[count] != '\0')
+	while (count < (max / 2))
 	{
+		temp = a[count];
+		a[count] = a[max - count];
+		a[max - count] = temp;
+
 		count = count + 1;
 	}
-
-	while (count > 0)
-	{
-		count = count - 1;
-		_putchar(s[count]);
-	}
-	_putchar('\n');
 }
